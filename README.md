@@ -87,12 +87,16 @@ document.getElementById('start-upload').onclick = function (){
 
 - `pluploadOptions`, plupload上传插件需要的配置参数：
 	- `runtimes`: 默认值为："html5,flash,silverlight,html4"，上传模式，上传器将会依次采用能够工作的模式运行
+	
 	- `browse_button`: 默认为'browse', 触发对话框的DOM元素自身或者其ID
 	
 	- `url`: 上传地址，默认为 ks3PostOptions.uploadDomain
-            
-    - `flash_swf_url` : 默认为'js/Moxie.swf', Flash组件的相对路径，请根据该组件在实际项目中的位置修改
-    - `silverlight_xap_url` : 默认为'js/Moxie.xap', Silverlight组件的相对路径，同flash_swf_url;
+	
+	- `drop_element`: 触发拖动上传的元素或者其ID, 默认为undefined
+        
+	- `flash_swf_url` : 默认为'js/Moxie.swf', Flash组件的相对路径，请根据该组件在实际项目中的位置修改
+        
+	- `silverlight_xap_url` : 默认为'js/Moxie.xap', Silverlight组件的相对路径，同flash_swf_url;
 	
 #### 属性 ####
 
